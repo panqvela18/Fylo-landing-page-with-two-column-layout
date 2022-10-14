@@ -303,8 +303,16 @@ footer .footer-sec .col1 .email{
 }
 .col  ul li{
     list-style: none;
+    transition: 0.3s ease-out;
 }
 
+.col  ul li a:hover{
+    color: #6C9BFF;
+}
+
+.col  ul li a{
+    transition: 0.3s ease-out;
+}
 .col2 ul li,
 .col3 ul li {
     margin-bottom: 16px;
